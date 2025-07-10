@@ -1,0 +1,1 @@
+select * from "KeyPass".users JOIN "KeyPass".passwords ON users.id = passwords.user_id where username='admin'
